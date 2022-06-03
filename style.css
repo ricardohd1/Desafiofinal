@@ -806,6 +806,7 @@ li{
 .escuro{
 	top: -13vw;
 	width: 97.6vw;
+	height:145vw;
 }
 .atr{
 	top: -30vw;
@@ -857,17 +858,69 @@ left: 2.5vw;
 .bloco,.grafico{
 	display: none;
 }
+.tes{
+	position: relative;
+	top: -54vw;
+	left: 30vw;
+	width: 60vw;
+	font-size: 2vw;
+}
  .mob{
 	 position: relative;
 	 top: -110vw;
  }
-
- .home{
-	 left: 20vw;
-	 width: 40vw;
-	 height: 40vw;
+ .tp{
+	 position: relative;
+	 top: -78vw;
  }
+ li{
+	 width: 38vw;
+	 left: 52vw;
+ }
+ .home{
+	 position: relative;
+	 top: -107vw;
+	 left: 0vw;
+	 width: 40vw;
+	 height: 60vw;
+ }
+ .dow1{
+	 position: relative;
+	 top: 30vw;
+	 left: -16vw;
+	 
+ }
+ .dow2{
+	 position: relative;
+	 top: 2.2vw;
+	 left: 6vw;
+ }
+ .dow3{
+	 position: relative;
+	 top: -23.2vw;
+	 left: 26vw;
+ }
+.load{
+	position: relative;
+	top:23vw;
+		padding: 1vw 2vw;
+	left: 2vw;
+}
 
+.oad{
+	position: relative;
+		padding: 1vw 2vw;
+	left: 2vw;
+}
 
+.old{
+	position: relative;
+		padding: 1vw 2vw;
+	left: 2vw;
+}
+ footer{
+	 position: relative;
+	 top: -550vw;
+ }
 
 }
