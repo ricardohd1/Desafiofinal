@@ -1,0 +1,873 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap%27');
+/* Roboto substitui Gilroy */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap%27');
+/* Assistant substitui Sovereign */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Assistant', sans-serif;
+}
+
+header{
+	background-image:url(fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+height: 43vw;
+position: relative;
+}
+ main{
+	position: relative;
+	background-image:url(sta2x.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+	width: 93vw;
+height: 130vw;
+
+ }
+
+.fundo{
+	display: flex;
+	align-items: center;
+max-width: 50%;
+}
+
+.gdai{
+	display: flex;
+object-fit: cover;
+width: 70vw;
+height:53vw;
+position: relative;
+left:10vw;
+z-index: 1;
+}
+.star{
+	position: absolute;
+	width:22vw ;
+	height: 20wv;
+	left: 21vw;
+}
+.wars{
+	position: absolute;
+	width:25vw ;
+	height: 25wv;
+	left:66vw;
+}
+
+.crie{
+	position: absolute;
+	top:33vw;
+	left: 76vw;
+font-size: 3vw;
+z-index: 1;
+}
+
+.barra{
+	background-color: rgb(0, 0, 0);
+	width: 14vw;
+	height: 1vw;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+button{
+	background: rgb(163, 190, 197);
+	border: none;
+	width: 3vw;
+	height: 4vw;
+	color:black ;
+	font-weight: bold;
+	font-size: 4vw;
+	z-index: 1;
+}
+.efeito{
+	text-decoration: none;
+	color: black;
+}
+.box{
+	position: relative;
+	background-image:url(box.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 12vw;
+	left: 28vw;
+width: 66vw;
+height: 80vw;
+}
+
+.box-texto{
+	position: relative;
+	top: 20px;
+left: 20vw;
+margin-bottom: 10px;
+	font-size:  8vw;
+font-weight:500;
+width: 24vw;
+
+}
+.texto{
+	position: relative;
+	top:6vw;
+	font-size: 4vw;
+	padding: 4vw;
+	
+}
+
+.box-filho{
+	position: absolute;
+	color: white;
+
+}
+
+.baixar{
+	color: white;
+	border: 3px solid white;
+	border-radius: 8px;
+	width: 30vw;
+height: 7vw;
+background: none;
+position: absolute;
+	top: 59vw;
+	left: 20vw;
+	font-weight:100;
+}
+
+.data{
+	position: absolute;
+	top: 76vw;
+	left: 23vw;
+	font-size: 2vw;
+}
+
+.bat{
+height: 40vw;
+	width:66vw ;
+	position: relative;
+	top: 17vw;
+	left: 28vw;
+}
+
+.jogo{
+	position: relative;
+	top: 22vw;
+	left: 72vw;
+	color: rgb(0, 0, 0);
+	font-size: 4vw;
+	width: 22vw;
+	margin: 0vw;
+}
+
+.barr{
+	position: relative;
+	width: 38vw;
+	height: 1vw;
+	background: black;
+	top: 22vw;
+	left: 55vw;
+}
+
+.tudo{
+	position: relative;
+top: 24vw;
+left: 16vw;
+width: 77vw;
+font-size: 4vw;
+text-align: end;
+}
+
+.bar{
+	position: relative;
+	top: 25vw;
+	left: 11vw;
+	background: gray;
+	width: 82vw;
+	height: 1vw;
+}
+
+.fd{
+	position: relative;
+	top:30vw;
+	left:3vw ;
+
+}
+
+.rey{
+	position: absolute;
+	left:67vw;
+	width: 25vw;
+	top: 3vw;
+	z-index: 1;
+	bottom: 160vw;
+}
+
+.lord{
+	position: absolute;
+top: 4vw;
+	width: 40vw;
+	height:45vw ;
+	z-index: 1;
+	left: -3vw;
+}
+
+.lista{
+	position: relative;
+right:24vw;
+top:5vw;
+	list-style: none;
+text-align: end;
+font-size: 3vw;
+z-index:1 ;
+}
+
+
+a{
+text-decoration: none;
+
+color: black;
+}
+
+.estr,.estre{
+	position: relative;
+	right: 20vw;
+top: 3vw;
+	text-align: end;
+	font-size: 6vw
+}
+
+.tro:hover{
+	background-color: red;
+	padding: 0vw 1vw;
+	color: white;
+
+}
+
+.escuro{
+	position: absolute;
+	top:42vw;
+	left: -3vw;
+	background: #2D2D2D;
+	width: 95vw;
+	height: 345vw;
+	z-index: 0;
+}
+
+.atr{
+	position: relative;
+	top: 35vw;
+	left: 33vw;
+	color:rgb(255, 255, 255);
+	z-index: 1;
+	width: 15vw;
+}
+
+.atri{
+	position: relative;
+	z-index: 1;
+	top:40vw;
+	left: 8vw;
+	height: 45vw;
+
+}
+.base{
+	position: relative;
+	top: -14vw;
+
+}
+.pai{
+	z-index: 1;
+	position: relative;
+	top: 35vw;
+}
+.branco{
+	position: relative;
+	left: 6vw;
+	height: 48vw;
+}
+
+.fotos{
+	position: relative;
+	left: 8vw;
+	height: 45vw;
+	top: -17vw;
+}
+
+.naves{
+	position: relative;
+	top: -15vw;
+	left: 8vw;
+	height: 45vw;
+}
+
+.foto{
+	position: relative;
+	height: 45vw;
+	left: 8vw;
+	top: -2vw;
+}
+
+.hie{
+	position: relative;
+	top: -10vw;
+	height: 56.3vw;
+	right: 2vw;
+}
+
+.bloco{
+	position: absolute;
+	top: 0vw;
+	left: 6vw;
+	background: #D74430;
+	width:78vw ;
+	height:48vw ;
+	opacity: 0.6;
+}
+
+.graf{
+	position: absolute;
+	top: 6vw;
+	left: 12vw;
+	font-size: 4vw;
+	color: white;
+	width: 2vw;
+}
+
+.gra{
+	position:absolute;
+	top:18vw;
+	left: 10vw;
+	color: white;
+	opacity: 0.8;
+width: 70vw;
+font-size: 4vw;
+}
+.gre{
+	position: relative;
+	top: -72vw;
+	left: 10vw;
+	color: white;
+	opacity: 0.8;
+width: 65vw;
+font-size: 4vw;
+}
+
+.gri{
+	position: relative;
+	top: -74vw;
+	left: 10vw;
+	color: white;
+	opacity: 0.8;
+width: 65vw;
+font-size: 4vw;
+}
+
+.fico{
+	position: absolute;
+	top: 38vw;
+	left:8vw;
+	border: white 3px solid;
+	width: 26vw;
+	height:6vw ;
+	text-align: center;
+	color: white;
+}
+.ico{
+	color: white;
+	position: absolute;
+	top: 40vw;
+	left: 13vw;
+	font-size: 3vw;
+}
+
+.cima{
+	position: absolute;
+	top: 4vw;
+left: 8vw;
+	border: solid 3px white;
+	height: 7vw;
+	width: 8vw;
+	border-right:none ;
+  border-bottom: none;
+}
+
+.baixo{
+	position: absolute;
+	top: 38vw;
+left: 73vw;
+	border: solid 3px white;
+	height: 7vw;
+	width: 8vw;
+	border-top:none ;
+  border-left: none;
+}
+
+.tes{
+	position: relative;
+	top:24vw;
+	color: white;
+	z-index: 1;
+	text-align: end;
+	right: 7vw;
+	opacity: 0.7;
+	font-size: 2.5vw;
+}
+
+.como-jogar{
+	position: relative;
+	top: 30vw;
+	left: 48vw;
+	font-size: 2.5vw;
+	z-index: 1;
+	color: white;
+	width: 22vw;
+}
+
+.dow{
+	z-index: 1;
+}
+.ordem{
+	position: relative;
+	z-index: 1;
+	top:20vw;
+	left: 9vw;
+	width: 10vw;
+	font-weight:bold;
+	font-size: 4vw;
+	color: black;
+}
+.mob{
+	position: relative;
+	top:-7vw;
+}
+.load{
+	position: relative;
+top:25vw;
+	padding: 3vw 6vw;
+	right: 1vw;
+	border: solid 1px black;
+	z-index: 1;
+	background-image: linear-gradient(to right, rgb(0, 0, 0) 0, rgb(0, 0, 0) 50%, #d74430 50%);
+	color:white;
+	
+}
+
+.baixe{
+	position:relative;
+	z-index: 1;
+top: 28vw;
+left: 1vw;
+font-size: 2.4vw;
+	width: 19vw;
+	color: black;
+}
+
+.rol{
+	position: relative;
+	z-index: 1;
+	top: 28vw;
+	background: #d74430;
+	height: 1vw;
+	width: 8vw;
+	left:6vw ;
+}
+.home{
+	position: absolute;
+	z-index: 1;
+	left: -35vw;
+	width: 80vw;
+	top:339vw;
+overflow: hidden;
+}
+li{
+	position: relative;
+	width: 47vw;
+	left: 43vw;
+	top: -3vw;
+	font-size: 3vw;
+}
+
+.ord{
+	position: relative;
+	color: black;
+	font-size: 4vw;
+	font-weight: bold;
+	top: 30vw;
+	z-index: 1;
+	left: 9vw;
+	width: 10vw;
+}
+.oad{
+	position: relative;
+	top:35vw;
+	padding: 3vw 6vw;
+	color: white;
+	background: black;
+	border: solid 1px black;
+	z-index: 1;
+	
+}
+.ixe{
+	position: relative;
+	color: black;
+	top: 39vw;
+	font-size: 2.4vw;
+	width: 18vw;
+	left: 3vw;
+}
+.iixe{
+	position: relative;
+	color: black;
+	top: 39vw;
+	font-size: 2.4vw;
+	width: 15vw;
+	left: 5vw;
+}
+.rl{
+	position: relative;
+	z-index: 1;
+	top: 39vw;
+	background: #000000;
+	height: 1vw;
+	width: 9vw;
+	left:6vw ;
+}
+
+.od{
+	position: relative;
+	color: black;
+	font-size: 4vw;
+	font-weight: bold;
+	top: 41vw;
+	z-index: 1;
+	left: 9vw;
+	width: 10vw;
+}
+
+.old{
+	position: relative;
+	top:45vw;
+	padding: 3vw 6vw;
+	color: white;
+	background: black;
+	border: solid 1px black;
+	z-index: 1;
+}
+
+.iie{
+	position: relative;
+	color: black;
+	top: 49vw;
+	font-size: 2.4vw;
+	width: 18vw;
+	left: 6vw;
+}
+
+.ie{
+	position: relative;
+	color: black;
+	top: 49vw;
+	font-size: 2.4vw;
+	width: 15vw;
+	left: 6vw;
+}
+
+.lr{
+	position: relative;
+	z-index: 1;
+	top: 49vw;
+	background: #000000;
+	height: 1vw;
+	width: 9vw;
+	left:6vw ;
+}
+
+
+.fundo-red{
+position: absolute;
+	background: #FF5A56;
+	top: 460vw;
+	width: 96.5vw;
+	left: -3vw;
+	height: 160vw;
+	color: white;
+}
+
+.apli{
+position: relative;
+top :10vw;
+font-size: 12vw;
+left: 15vw;
+width: 80vw;
+font-weight: 900;
+}
+
+.cont{
+	text-align:start;
+	position: relative;
+	top: 10vw;
+	left: 15vw;
+	width: 80vw;
+	opacity: 0.7;
+	font-size: 3vw;
+}
+
+.apps{
+	position: relative;
+	top: 14vw;
+left:15vw ;
+width: 80vw;
+}
+
+.barin{
+	position: relative;
+	top: 15vw;
+	left: 15vw;
+	background: #D74430;
+	width:70vw ;
+	height:1vw ;
+}
+
+.branc{
+	position: relative;
+	top: 23vw;
+	left :30vw;
+width:40vw ;
+}
+.cc{
+	position: relative;
+	top: 26vw;
+	left: 15vw;
+	opacity: 0.7;
+	width: 80vw;
+	font-size: 3vw;
+}
+
+.dark{
+	position: relative;
+	width: 90vw;
+	top: 30vw;
+}
+
+.criador{
+	position: relative;
+	color: black;
+	font-size: 3vw;
+	top:30vw;
+width:84vw;
+}
+
+
+
+@media (min-width:100px) {
+.fundo-red{
+	position: absolute;
+	height:700px;
+	width:96vw ;
+}
+.apps{
+width: 77vw;
+}
+.ap{
+	width:38vw;
+}
+}
+@media (min-width:520px) {
+	.fundo-red{
+		position: absolute;
+		height:140vw;
+	
+	}
+}
+@media (min-width:600px) {
+.mob{
+	top:-5vw;
+}
+}
+@media  (min-width: 900px)  {
+.box{
+position: relative;
+left:15vw;
+top: -2vw;
+z-index: 1;
+width: 20vw;
+height: 30vw;
+}
+.texto{
+	position: relative;
+	top:2vw;
+	right: 2vw;
+	font-size: 2vw;
+	width: 15vw;
+}
+.baixar{
+	position: relative;
+top: 2vw;
+left: 5vw;
+width: 10vw;
+height: 3vw;
+border: solid 0.2vw;
+}
+.box-texto{
+	position: relative;
+	left:6vw;
+	top: 4vw;
+font-size: 3vw;
+width: 10vw;
+font-weight: 800;
+}
+.texto,.baixar{
+position: relative;
+	font-size: 1vw;
+}
+.data{
+	position: relative;
+	top: 3vw;
+	left: 12vw;
+	font-size: 0.7vw;
+	opacity: 0.7;
+}
+
+.bat{
+	position: relative;
+	top: -15vw;
+	left: 70vw;
+	max-width: 100%;
+	width: 23vw;
+	height: 17vw;
+}
+
+.jogo{
+	position: relative;
+	top: -35vw;
+left:52vw;
+font-size: 3vw;
+}
+.barr{
+	position: relative;
+	top: -35vw;
+	left: 56vw;
+	height:0.3vw ;
+	width: 12vw;
+}
+.tudo{
+	position: relative;
+top: -34vw;
+left: -10vw;
+font-size: 1.3vw;
+}
+.bar{
+position: relative;
+top: -27vw;
+left:15vw;
+
+height:0.3vw ;
+width:73vw ;
+}
+main{
+position: relative;
+background-image:url(sta2x.png);
+background-repeat: no-repeat;
+background-size:contain;
+width: 60vw;
+height: 85vw;
+}
+.check{
+	position: relative;
+	top: -60vw;
+	left: 10vw;
+}
+.lord{
+	left: 3vw;
+	top:6vw;
+	width: 49vw;
+	height: 45vw;
+}
+.rey{
+	width: 20vw;
+	height: 42vw;
+	left: 65vw;
+	top: 6vw;
+}
+.estr,.estre{
+	font-size: 5vw;
+}
+li{
+	font-size: 2.5vw;
+	left: 42.2vw;
+	margin: 1vw;
+
+}
+.ti{
+	position: relative;
+	left: 25vw;
+}
+.escuro{
+	top: -13vw;
+	width: 97.6vw;
+}
+.atr{
+	top: -30vw;
+	font-size: 4vw;
+	left: 10vw;
+}
+.atri{
+	left: 3vw;
+width: 40vw;
+height: 30vw;
+	top: -26vw;
+}
+	.branco{
+		position: absolute;
+		top: -91.5vw;
+		height: 15vw;
+		width: 25vw;
+	left: 43vw;
+	}
+.naves{
+	position: absolute;
+	top: -77vw;
+	height: 15vw;
+	width: 25vw;
+left: 43vw;
+}
+
+.foto{
+	position: relative;
+	top: -91.3vw;
+	height: 15.5vw;
+	width: 23vw;
+	left: 68vw;
+}
+.fotos{
+	position: relative;
+	top: -93vw;
+	height: 15.5vw;
+	width: 23vw;
+	left: 68vw;
+	z-index: 1;
+}
+.hie{
+	position: relative;
+top: -88vw;
+width: 88vw;
+left: 2.5vw;
+}
+.bloco,.grafico{
+	display: none;
+}
+ .mob{
+	 position: relative;
+	 top: -110vw;
+ }
+
+ .home{
+	 left: 20vw;
+	 width: 40vw;
+	 height: 40vw;
+ }
+
+
+
+}
